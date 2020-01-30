@@ -11,7 +11,7 @@ while sticks > 1:
         else:
             break
     sticks -= int(move)
-    print('{user} removed {move} sticks, on the table now {sticks}'.format(user = users[cur_user], move = move, sticks = sticks))
+    print("{user} removed {move} sticks, on the table now {sticks}".format(user = users[cur_user], move = move, sticks = sticks))
     if cur_user == 0:
         cur_user = 1
     else:
